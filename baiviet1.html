@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <title>Đi khắp Đại Việt - Bài Viết 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="icon/iconfooter.png">
+    <!--Css Plugin-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+    <style>
+        #body {
+            margin-top: 50px;
+            font-size: 150%;
+        }
+        
+        figcaption {
+            margin-top: 5px;
+            padding-left: 5px;
+            color: rgba(180, 187, 188, 0.9);
+            border-left: 2px solid #ecf0f1;
+        }
+        
+        #cot1 ul {
+            position: fixed;
+            top: 50px;
+            left: 50px;
+            list-style-type: none;
+            z-index: -1;
+        }
+        
+        #cot1 li {
+            padding: 20px;
+            margin-top: 50px;
+        }
+        
+        #cot2 p {
+            font-family: Merriweather;
+        }
+        
+        #cot3 ol {
+            margin: 50px 0;
+            padding: 50px;
+            list-style-type: none;
+            font-size: 90%;
+            z-index: -1;
+            background-color: rgba(52, 152, 219, 0.5);
+        }
+        
+        #cot3 a {
+            color: black;
+        }
+        
+        @media(max-width:1000px) {
+            #cot1 ul {
+                display: none;
+            }
+            #logo {
+                width: auto;
+                height: auto;
+            }
+        }
+        
+        h3 {
+            font-weight: bolder;
+        }
+        
+        #cot3 p {
+            font-size: 80%;
+        }
+        
+        #cot3 img {
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body id="home">
+
+
+    <!-- <div class="container-fluid" id="cover">
+        <img width="970" height="250" src="https://img.vietcetera.com/uploads/images/01-dec-2020/travelmag.jpg">
+
+
+    </div> -->
+
+
+
+    <!--Navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+                <a class="navbar-brand" href="index.html">VIETNAMTOURIST</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav ">
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="news.html">TIN TỨC</a></li>
+                    <li class="dropdown">
+                        <a href="trongnuoc.html">TOUR TRONG NƯỚC
+                        <span class="caret"></span></a>
+                        <ul class="row dropdown-menu">
+
+                            <li class="col-sm-3 col-xs-12">
+                                <ul class="list-unstyled">
+                                    <h3>Miền Nam</h3>
+                                    <li><a href="#">Tp.Hồ Chí Minh</a></li>
+                                    <li><a href="#">Đồng Nai</a></li>
+                                    <li><a href="#">Long An</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="col-sm-3 col-xs-12">
+                                <ul class="list-unstyled">
+                                    <h3>Miền Bắc</h3>
+                                    <li><a href="#">Hà Nội</a></li>
+                                    <li><a href="#">Ninh Bình</a></li>
+                                    <li><a href="#">Phú Thọ</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="col-sm-3 col-xs-12">
+                                <ul class="list-unstyled">
+                                    <h3>Miền Tây</h3>
+                                    <li><a href="#">Cà Mau</a></li>
+                                    <li><a href="#">An Giang</a></li>
+                                    <li><a href="#">Bạc Liêu</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="col-sm-3 col-xs-12">
+                                <ul class="list-unstyled">
+                                    <h3>Biển Đảo</h3>
+                                    <li><a href="#">Côn Đảo</a></li>
+                                    <li><a href="#">Phú Quốc</a></li>
+                                    <li><a href="#">Trường Sa</a></li>
+                                    <li><a href="#">Hoàng Sa</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">LIÊN HỆ</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li id="btnlogin"><a><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li id="btnsignup"><a><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" id="body">
+        <div class="row">
+            <div class="col-md-2" id="cot1">
+                <ul>
+                    <li class="nav-item1">
+                        <i class="fa fa-facebook-official "></i>
+                    </li>
+                    <li class="nav-item ">
+                        <i class="fa fa-heart-o " aria-hidden="true "></i>
+                    </li>
+                    <li class="nav-item ">
+                        <i class="fa fa-clone " aria-hidden="true "></i>
+                    </li>
+                    <li class="nav-item ">
+                        <i class="fa fa-bookmark-o " aria-hidden="true "></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 " id="cot2 ">
+                <h1><strong>Công nghệ sẽ định hình tương lai du lịch như thế nào?</strong></h1>
+                <p style="color: rgb(146, 154, 159); font-size: 80%; ">Về vai trò của công nghệ trong “thời đại mới" và những xu hướng sắp tới của ngành du lịch.</p>
+                <img src="https://img.vietcetera.com/uploads/images/01-dec-2020/travelmag.jpg" width="100%">
+                <figcaption>Nguồn: Vietcetera</figcaption><br>
+                <div>
+                    <p>Với sự lên ngôi của công nghệ, câu chuyện “xách ba lô lên và đi” giờ đây chỉ gói gọn trong một vài nút chạm — từ đặt vé, lên lộ trình và chia sẻ trải nghiệm trên mạng xã hội.</p>
+                    <p>Ngoài ra, không chỉ dừng lại ở những điểm đến quen thuộc, các tín đồ du lịch bắt đầu truyền tay nhau những điểm đến lạ hơn, những hành trình trước đây họ chưa từng thử qua, ví dụ như du lịch thám hiểm.</p>
+                    <p>Để tìm hiểu về vai trò của công nghệ trong “thời đại mới" và những xu hướng sắp tới của ngành du lịch, TravelMag đã gặp gỡ các đại diện từ phía doanh nghiệp là Google và Booking.com, cũng như hai tiếng nói trẻ — travel blogger Matthew
+                        Mai và ca sĩ - diễn viên Băng Di.</p>
+                    <img src="https://img.vietcetera.com/uploads/images/01-dec-2020/travelmag-11.jpg" width="100%">
+                </div>
+                <div>
+                    <h3><strong>Công nghệ đã thay đổi trải nghiệm du lịch như thế nào? Và các sản phẩm của Google được
+                            xây dựng như thế nào để mang đến trải nghiệm du lịch thông minh và an toàn hơn cho khách du
+                            lịch?&nbsp;</strong></h3>
+                    <p>Để trả lời cho câu hỏi này, tôi nghĩ chúng ta nên bắt đầu từ thời điểm một cá nhân lên kế hoạch cho chuyến du lịch của mình. Quá trình này được tôi chia làm 3 giai đoạn chính:&nbsp;</p>
+                    <p><strong>Giai đoạn 1: khi bắt đầu nghĩ về chuyến đi</strong></p>
+                    <p>Nguồn cảm hứng: những ấn phẩm của Lonely Planet, các quyển tạp chí hay YouTube, thông qua các blogger, influencer để xem họ đã đi qua những đâu và khám phá những gì trên thế giới.&nbsp;</p>
+                    <p>Ví dụ, nếu muốn khám phá bản sắc Việt Nam,&nbsp;tham khảo playlist tại kênh YouTube của Google Vietnam.</p>
+                    <p><strong>Giai đoạn 2: lên kế hoạch chi tiết và đặt vé</strong></p>
+                    <ul>
+                        <li><span>Google Search: giúp tìm được những gói di chuyển và lưu trú ưu đãi.&nbsp;</span></li>
+                        <li><span>&nbsp;</span>Google Travel<span>:
+                                mang đến những thông tin hữu ích về thành phố du lịch.&nbsp;</span></li>
+                    </ul>
+                    <p><strong>Giai đoạn 3: khi đặt chân đến địa điểm du lịch</strong></p>
+                    <ul>
+                        <li><span>Google Maps: giúp bạn tìm kiếm địa điểm.&nbsp;</span></li>
+                        <li><span>Google Translate: để bạn có thể vượt qua rào cản ngôn ngữ.&nbsp;</span></li>
+                    </ul>
+                    <p>Nhìn chung, công nghệ nói chung và một nhóm các sản phẩm đến từ Google nói riêng đã giúp trải nghiệm du lịch của mọi người — từ khi bắt đầu đến khi kết thúc — trở nên dễ dàng và tiện lợi hơn.&nbsp;&nbsp;&nbsp;
+                    </p>
+                    <h3><strong>Sau đại dịch, tâm lý và hành vi du lịch tại khu vực Châu Á - Thái Bình Dương, đặc biệt
+                            là tại Việt Nam, đang thay đổi như thế nào?</strong></h3>
+                    <p>Gần đây, chúng tôi có đăng tải một bài viết về Tình trạng du lịch tại Châu Á - Thái Bình Dương</a>, cập nhật tình hình hiện tại của ngành du lịch trong khu vực và các xu hướng để các doanh nghiệp có thể lên kế hoạch chuẩn bị.&nbsp;</p>
+                    <p>Thông qua một khảo sát có quy mô toàn cầu, có đến: 25% người Việt Nam, Úc (2%), Nhật (4%) và Singapore (8%)&nbsp;chia sẻ rằng họ sẵn sàng đi du lịch trong nước trong vòng 3 tháng tới.&nbsp;
+                    </p>
+                    <p>Dữ liệu tìm kiếm tại các thị trường Châu Á - Thái Bình Dương, mọi người bắt đầu tìm kiếm các từ khóa: <strong>“khu nghỉ dưỡng”</strong> và <strong>“khu nghỉ dưỡng trọn gói"</strong>.&nbsp;</p>
+                    <p>Khi được hỏi về những điều mà họ lưu tâm khi đi du lịch, đây là những câu trả lời mà chúng tôi nhận được:&nbsp;</p>
+                    <ul>
+                        <li><span>Vấn đề về an toàn và vệ sinh: liệu nơi lưu trú có cung cấp khẩu trang và nước rửa tay
+                                miễn phí không?</span></li>
+                        <li><span>Tối ưu chi phí: du khách có được nhận ưu đãi 25% khi đặt chuyến không?</span></li>
+                        <li><span>Sự linh động: giả sử họ muốn thay đổi hoặc hủy chuyến, họ có được hoàn tiền hay
+                                không?</span></li>
+                    </ul>
+                    <p>Đây là những insight mà tôi nghĩ là các doanh nghiệp cần quan tâm để có thể xây dựng chiến lược phù hợp.&nbsp;</p>
+                    <h3>Chị có thể chia sẻ quan điểm về sự phát triển của ngành du lịch tại Việt Nam? Các doanh nghiệp, đặc biệt là các doanh nghiệp vừa và nhỏ (SMBs), có thể làm gì để tiếp cận đối tượng khách hàng tiềm năng?&nbsp;</h3>
+                    <p>Về tiềm năng của du lịch Việt Nam, các dữ liệu từ Google Trends cho thấy người Việt đã sẵn sàng để du lịch trở lại. Khách du lịch ngày nay rất thành thạo công nghệ. Vì vậy, là một doanh nghiệp du lịch vừa và nhỏ, hãy tìm cách để doanh
+                        nghiệp của mình luôn xuất hiện trên các trang tìm kiếm.&nbsp;
+                    </p>
+                    <p>Thông qua Google My Business — công cụ quản lý tìm kiếm doanh nghiệp trên Google Maps và Google Search. Việc xác minh thông tin doanh nghiệp trên Google My Business sẽ giúp du khách nhanh chóng tìm thấy trang web và vị trí của doanh
+                        nghiệp. Bạn còn có thể chia sẻ dịch vụ, giờ hoạt động, hình ảnh về địa điểm… tại đây.</p>
+                    <img src="https://img.vietcetera.com/uploads/images/01-dec-2020/travelmag-7.jpg" width="100%">
+                    <h3>Sắp tới, Google sẽ làm gì để tiếp tục hỗ trợ các doanh nghiệp du lịch tại Việt Nam hồi phục và phát triển?</h3>
+                    <p>Vài năm trở lại đây, chúng tôi có chương trình mang tên Accelerate with Google, dành riêng cho các doanh nghiệp SMBs và phụ nữ muốn phát triển các kỹ năng vận hành doanh nghiệp trong thời đại số. Trước đây là những offline workshop,
+                        nhưng do ảnh hưởng của đại dịch, chúng tôi đã chuyển sang online với tần suất khoảng 6-7 ngày/tuần. Sắp tới, chúng tôi sẽ tổ chức nhiều sự kiện trực tuyến và ngoại tuyến hơn nữa để giúp các doanh nghiệp bước vào công cuộc số hoá.&nbsp;</p>
+                </div>
+            </div>
+            <div class="col-md-4" id="cot3">
+
+                <ol class="baivietkhac">
+                    <h3><strong>Bài viết khác</strong></h3>
+                    <li> <a href="baiviet1.html">"Mình bắt đầu tiết kiệm từ năm 3 đại học, đến khi ra trường thì có tròn 100 triệu"</a></li>
+                    <hr class="d-sm-none" />
+                    <li> <a href="baiviet1.html">5 Bài test tâm lý để biết bạn tự thương mình tới mức nào</a></li>
+                    <hr class="d-sm-none" />
+                    <li> <a href="baiviet1.html">Bạn có thực sự trả lời được câu hỏi "Đồng tính luyến ái từ đâu mà có"?</a></li>
+                    <hr class="d-sm-none" />
+                    <li> <a href="baiviet1.html">Eye See Ai: Dự án cộng đồng dành cho các nghệ sĩ tự kỷ</a></li>
+                    <hr class="d-sm-none" />
+                    <li> <a href="baiviet1.html">Kilomet109, Lola Lê Ly và Wax Atelier: Chế Tác Bền Vững Xuyên Biên Giới</a></li>
+                    <hr class="d-sm-none" />
+                </ol>
+                <div class="container-fluid">
+                    <h3><strong>Bài viết liên quan</strong></h3>
+                    <div>
+                        <img src="pictures/news2.jpg">
+                        <a href="baiviet1.html">
+                            <h3>7 Cách để du đi du lịch bền vững</h3>
+                        </a>
+                        <p>Liệu du lịch có phải là thứ thuốc thần thánh có thể chữa lành mọi thứ, hoặc khiến con người ta tốt hơn như nhiều</p>
+                    </div>
+                    <div>
+                        <img src="pictures/news5.jpg">
+                        <a href="#">
+                            <h3>Du lịch hè: Chiến lược thúc đẩy nhu cầu từ các chuyên gia</h3>
+                        </a>
+                        <p>Ngành du lịch Việt Nam và cơ hội để phát triển cho các doanh nghiệp giữa thời điểm khó khăn này.</p>
+                    </div>
+                    <div>
+                        <img src="pictures/news6.jpg">
+                        <a href="#">
+                            <h3>Làm thế nào để du lịch một mình không lạc lõng?</h3>
+                        </a>
+                        <p>3. Thử "đóng vai" một người bản địa khi đi du lịch một mình.</p>
+                    </div>
+                    <div>
+                        <img src="pictures/news7.jpg">
+                        <a href="#">
+                            <h3>Maika Tours: Hướng phát triển du lịch mà Việt Nam cần có</h3>
+                        </a>
+                        <p>Lấy chất lượng và tính chân thực làm giá trị cốt lõi, Giang Vũ giới thiệu đến du khách dịch vụ du lịch Maika Tours,...</p>
+                    </div>
+                    <div>
+                        <img src="pictures/news8.jpg">
+                        <a href="#">
+                            <h3>Dịch corona: Du lịch Việt có đang dựa vào khách Trung Quốc quá nhiều?</h3>
+                        </a>
+                        <p>Vắng khách Trung Quốc vì corona, du lịch Việt Nam điêu đứng. Liệu ngành du lịch của chúng ta có dựa vào...</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr class="d-sm-none" />
+    <!--Footer section-->
+    <div id="footer" class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <p>Lữ Hành Vietnamtourist, thương hiệu lữ hành hàng đầu Việt Nam<br>Thương hiệu quốc gia</p>
+                <img src="icon/prize.png" alt="cup">
+                <p><br>Công ty TNHH một thành viên - Vietnamtourist - Quận 10 TP.HCM</p>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h5>DỊCH VỤ</h5>
+                        <ul>
+                            <li><a href="#">Tour trong nước</a></li>
+                            <li><a href="#">Tour nước ngoài</a></li>
+                            <li><a href="#">Vé máy bay</a></li>
+                            <li><a href="#">Thuê xe</a></li>
+                            <li><a href="#" target="_blank">Tuyển dụng</a></li>
+                            <li><a href="#" target="_blank">Du học</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xs-4">
+                        <h5>CHĂM SÓC KHÁCH HÀNG</h5>
+                        <ul>
+                            <li><a href="#" target="_blank">Thẻ khách hàng</a></li>
+                            <li><a href="#" target="_blank">Tải App</a></li>
+                            <li><a href="#" target="_blank">Travel Voucher </a></li>
+                            <li><a href="#" target="_blank">Bảo hiểm Du lịch</a></li>
+                            <li><a href="#">Ý kiến khách hàng</a></li>
+                            <li><a href="#" target="_blank">Phiếu góp ý</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xs-4">
+                        <h5>LIÊN HỆ</h5>
+                        <ul>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Chi nhánh</a></li>
+                            <li><a href="#">Hướng dẫn
+                                mua tour online</a></li>
+                            <li><a href="#">Quy định thanh toán</a></li>
+
+                            <li><a href="#">Chính sách bảo mật</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="text-center" style="background-color: rgba(52, 73, 94,1.0)">
+
+        <a class="up-arrow " href="#home " data-toggle="tooltip " title="TO TOP ">
+            <span class="glyphicon glyphicon-chevron-up "></span>
+        </a><br><br>
+        <p> &#169; Vietnamtourist.com.vn</p>
+    </footer>
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="mystyle.css">
+    <!--Script Plugin-->
+    <script type="text/javascript " src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js "></script>
+    <script type="text/javascript " src="myscript.js "></script>
+
+
+
+
+</body>
+
+</html>

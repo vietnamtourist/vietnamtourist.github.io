@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <title>Đi khắp Đại Việt</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="icon/iconfooter.png">
+    <!--Css Plugin-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Plugin -->
+    <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+    <link href="//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold" rel="stylesheet" type="text/css" />
+    <style>
+        #myCarousel1 {
+            background-color: #ecf0f1;
+        }
+        
+        #tintuc img {
+            width: 100%;
+            margin: 10px 5px;
+        }
+        
+        #tintuc img:hover {
+            transform: scale(0.9);
+            transition: 0.5s;
+        }
+        
+        #baivietmoi {
+            margin: 20px 0;
+        }
+        
+        a {
+            color: black;
+            display: block;
+        }
+        
+        a:hover {
+            color: black;
+        }
+        
+        .logo {
+            color: #f4511e;
+            font-size: 200px;
+        }
+        
+        #about {
+            background-color: rgba(236, 240, 241, 1.0);
+            line-height: 30px;
+        }
+        
+        @media screen and (max-width:800px) {
+            .leftbtn,
+            .rightbtn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body id="home">
+
+
+    <!--Navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="index.html">VIETNAMTOURIST</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav ">
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="news.html">TIN TỨC</a></li>
+                    <li class="dropdown">
+                        <a href="trongnuoc.html">TOUR TRONG NƯỚC
+                            <span class="caret"></span></a>
+                        <ul class="row dropdown-menu">
+
+                            <li class="col-sm-3 col-xs-12">
+                                <ul class="list-unstyled">
+                                    <h3>Miền Nam</h3>
+                                    <li><a href="#">Tp.Hồ Chí Minh</a></li>
+                                    <li><a href="#">Đồng Nai</a></li>
+                                    <li><a href="#">Long An</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="col-sm-3 col-xs-12">
+                                <ul class="list-unstyled">
+                                    <h3>Miền Bắc</h3>
+                                    <li><a href="#">Hà Nội</a></li>
+                                    <li><a href="#">Ninh Bình</a></li>
+                                    <li><a href="#">Phú Thọ</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="col-sm-3 col-xs-12">
+                                <ul class="list-unstyled">
+                                    <h3>Miền Tây</h3>
+                                    <li><a href="#">Cà Mau</a></li>
+                                    <li><a href="#">An Giang</a></li>
+                                    <li><a href="#">Bạc Liêu</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="col-sm-3 col-xs-12">
+                                <ul class="list-unstyled">
+                                    <h3>Biển Đảo</h3>
+                                    <li><a href="#">Côn Đảo</a></li>
+                                    <li><a href="#">Phú Quốc</a></li>
+                                    <li><a href="#">Trường Sa</a></li>
+                                    <li><a href="#">Hoàng Sa</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">LIÊN HỆ</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="search-container">
+                        <form action="">
+                            <input type="text" placeholder="Tìm kiếm.." name="search"></input>
+                            <button type="submit"><i class="fa fa-search" style="color: white;"></i></button>
+                        </form>
+                    </li>
+                    <li><a id="login" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <!--banner-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+                <img src="https://geos-nature.org/wp-content/uploads/2019/10/danh-lam-thang-canh-viet-nam-1.jpg" alt="Cảnh đẹp du lịch" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h3>ĐI KHẮP ĐẠI VIỆT</h3>
+                    <h1><strong>DU LỊCH THAM QUAN</strong></h1>
+                    <p>Cùng tham quan những di tích lịch sử, thắng cảnh. </p><br>
+                    <a href="news.html"><button class="btn btn-warning">Xem thêm</button></a>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <img src="https://danangfantasticity.com/wp-content/uploads/2020/07/le-hoi-tuyet-voi-da-nang-2020-hoanh-trang-va-hap-dan-dang-cho-don-ban-08.jpg" alt="Cảnh đẹp du lịch" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h3>ĐI KHẮP ĐẠI VIỆT</h3>
+                    <h1><strong>DU LỊCH VĂN HÓA</strong> </h1>
+                    <p>Cùng nhau tham gia các lễ hội. </p> <br>
+                    <a href="news.html"><button class="btn btn-warning">Xem thêm</button></a>
+                </div>
+
+            </div>
+
+            <div class="item">
+                <img src="https://datviettour.com.vn/uploads/images/chau-a/trung-quoc/hinh-dac-san/kham-pha-nghe-thuat-am-thuc-trung-hoa-anh1.jpg" alt="LangBiang" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h3>ĐI KHẮP ĐẠI VIỆT</h3>
+                    <h1><strong>DU LỊCH ẨM THỰC</strong></h1>
+                    <p>Những bữa tiệc cung đình Huế hay ẩm thực Bắc Trung Nam. </p><br>
+                    <a href="news.html"><button class="btn btn-warning">Xem thêm</button></a>
+                </div>
+
+            </div>
+
+            <div class="item">
+                <img src="http://www.duthuyen-halong.com/sites/t/to/tourduthuyenhalong/uploads/ckfinder/images/images1405401_aaa.jpg" alt="Nha Trang" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h3>ĐI KHẮP ĐẠI VIỆT</h3>
+                    <h1>DU LỊCH MICE</h1>
+                    <p>Du lịch cùng tập thể, công ty,... </p><br>
+                    <a href="news.html"><button class="btn btn-warning">Xem thêm</button></a>
+                </div>
+
+            </div>
+            <div class="item">
+                <img src="https://www.havatravel.com.vn/upload/hinhthem/team-building-cong-ty-to-chuc-su-kien-hang-dau-tai-da-nang02-6831.jpg" alt="Bảo hiểm covid" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h3>ĐI KHẮP ĐẠI VIỆT</h3>
+                    <h1>TEAM BUILDING</h1>
+                    <p>Kết hợp với du lịch tham quan, nghỉ dưỡng với các chương trình team nhằm xây dựng, tăng cường tinh thần đoàn kết, tập thể. </p><br>
+                    <a href="news.html"><button class="btn btn-warning">Xem thêm</button></a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <!-- sản phẩm -->
+
+    <h1 class="text-center"><i class="fa fa-fire" style="font-size:48px;color:red"></i> TOUR 2021 <i class="fa fa-fire" style="font-size:48px;color:red"></i></h1>
+
+    <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+                <div class="container">
+                    <div class="row">
+                        <a href="trongnuoc.html">
+                            <div class="col-md-4">
+                                <img src="https://www.saigontourist.net/uploads/destination/TrongNuoc/TayNinh/NuiBaDen_1705402471.jpg">
+                                <h3>Du lịch Củ Chi - Tây Ninh [Khu Di Tích Địa Đạo - Đền Bến Dược</h3>
+                                <p>-Du lịch Xanh Cùng Lữ Hành VIETNAMTOURIST-Tham quan khu Di Tích Địa...</p>
+                            </div>
+                        </a>
+                        <a href="trongnuoc.html">
+                            <div class="col-md-4">
+                                <img src="https://vcdn1-dulich.vnecdn.net/2019/10/04/tha-c-ba-n-gio-c-vnexpress-5-1570193128.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=GGIbzHt8g5SVeH8FwEMohA">
+                                <h3>THAM QUAN CAO BẰNG - PÁC BÓ - THÁC BẢN GIỐC</h3>
+                                <p>-Du lịch Xanh Cùng Lữ Hành VIETNAMTOURIST-Tham quan khu Di Tích Địa...</p>
+                            </div>
+                        </a>
+                        <a href="trongnuoc.html">
+                            <div class="col-md-4">
+                                <img src="https://cdn2.ivivu.com/2020/06/15/16/ivivu-fansipang.gif">
+                                <h3>DU LỊCH SAPA [KHỞI HÀNH TỪ HẢI PHÒNG]</h3>
+                                <p>Du lịch Sapa: tham quan nhà thờ Đá, núi Hàm Rồng, ...</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <a href="trongnuoc.html">
+                            <div class="col-md-4">
+                                <img src="https://vcdn1-dulich.vnecdn.net/2021/05/18/Con-Dao-Shutterstock-jpeg-5664-1621324509.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=_u1ER22DXMdVT2glR29WkQ">
+                                <h3>DU LỊCH CÔN ĐẢO [2 NGÀY]</h3>
+                                <p>Đến với Côn Đảo (hay với các tên khác như Côn Sơn, Côn Lôn)...</p>
+                            </div>
+                        </a>
+                        <a href="trongnuoc.html">
+                            <div class="col-md-4">
+                                <img src="https://letravel.vn/temp/-uploaded-tour-tour-tay-bac_dulichlaocaiyty3ngay2dem_thumb_1200x1200.jpg">
+                                <h3>DU LỊCH HÀ NỘI - LÀO CAI - LŨNG PÔ - Y TÝ </h3>
+                                <p>Khám phá Y Tý - Ngắm nhìn cánh đồng ruộng bậc thang A Lù,...</p>
+
+                            </div>
+                        </a>
+                        <a href="trongnuoc.html">
+                            <div class="col-md-4">
+                                <img src="https://kynghiviet.vn/public/upload/Blog/2019/Thang12/Phu-quoc/du-lich-phu-quoc-kinh-nghiem-va-thong-tin-huu-ich.jpg?1578022748671">
+                                <h3>DU LỊCH PHÚ QUỐC 3N2Đ [KHỞI HÀNH TỪ VINH]</h3>
+                                <p>Tham quan suối Tranh - quý khách có thể đi dạo trong rừng, thư...</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="leftbtn w3-black" href="#myCarousel1" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="rightbtn  w3-black" href="#myCarousel1" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+
+        <!-- Left and right controls -->
+
+    </div>
+
+    <!-- tin tức -->
+    <div class="container-fluid" id="tintuc">
+        <div class="row">
+            <div class="col-xs-8">
+                <a href="news.html">
+                    <img src="https://www.saigontourist.net/uploads/homepage/3banner/Banner-phong-ND-1.jpg">
+                </a>
+            </div>
+            <div class="col-xs-4">
+                <a href="news.html">
+                    <img src="https://www.saigontourist.net/uploads/homepage/3banner/banner-nhdl2021.jpg">
+                    <img src="https://www.saigontourist.net/uploads/homepage/3banner/Banner-FLCQuyNhon.jpg">
+                </a>
+            </div>
+        </div>
+
+
+        <h1 class="text-center"><i class="fa fa-fire" style="font-size:48px;color:red"></i> ĐIỂM ĐẾN ĐANG HOT <i class="fa fa-fire" style="font-size:48px;color:red"></i></h1>
+        <div class="row" id="baivietmoi">
+            <div class="col-md-4">
+                <a href="baiviet1.html">
+                    <img src="https://www.saigontourist.net/uploads/destination/TrongNuoc/Phuquoc/phu-quoc-beach_599336339.jpg" alt="">
+                    <h4>Bạn đã biết TOP 7 bãi biển nổi tiếng Phú Quốc?</h4>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="baiviet1.html">
+                    <img src="https://www.saigontourist.net/uploads/destination/NuocNgoai/Ao/Vienna-Town-Hall-Rathaus_348052358.jpg" alt="">
+                    <h4>4 khu chợ Giáng Sinh lộng lẫy nhất Trung Âu</h4>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="baiviet1.html">
+                    <img src="https://www.saigontourist.net/uploads/destination/NuocNgoai/Thailand/Ananta-Samakhom-Throne-Hall-in-Thai-Royal-Dusit-Palace-Bangkok-Thailand_529323232.jpg" alt="">
+                    <h4>10 hòn đảo đẹp "ngất ngây" ở Thái Lan</h4>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Container (About Section) -->
+    <div id="about" class="container-fluid">
+        <h1><strong>ABOUT US</strong> </h1>
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="">
+                    <p style="text-align: justify;"><strong>KHẲNG ĐỊNH THƯƠNG HIỆU HÀNG ĐẦU VỀ CHẤT LƯỢNG &amp; HIỆU QUẢ
+                            KINH DOANH</strong></p>
+
+                    <p style="text-align: justify;">Trong ngành du lịch Việt Nam, Công ty Dịch vụ Lữ hành VietNamTourist là doanh nghiệp lữ hành luôn tiên phong với những sáng tạo đột phá, tăng trưởng bền vững, khẳng định vững chắc vị trí hàng đầu về chất lượng sản phẩm, dịch vụ, cung
+                        cách phục vụ và hiệu quả kinh doanh. Đó là cơ sở để Lữ hành VietNamTourist liên tục vinh dự đón nhận hàng loạt giải thưởng, danh hiệu uy tín công nhận và khẳng định vị thế Thương hiệu Quốc gia, Thương hiệu Lữ hành hàng đầu Việt
+                        Nam và khu vực.</p>
+
+
+                    <p style="text-align: justify;"><strong>Thương hiệu Quốc gia</strong></p>
+
+                    <p style="text-align: justify;">Với thế mạnh cung ứng dịch vụ đa dạng có chất lượng cao gắn với các giá trị “Chất lượng - Đổi mới - Sáng tạo - Năng lực lãnh đạo” và năng lực cạnh tranh trên thị trường trong nước và quốc tế trong quá trình hội nhập, Công ty Dịch vụ
+                        Lữ hành VietNamTourist vinh dự là doanh nghiệp lữ hành duy nhất được bình chọn là Thương hiệu Quốc gia của Chính phủ Việt Nam liên tục từ năm 2008 đến nay.</p>
+
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center">
+                <span class="glyphicon glyphicon-globe logo slideanim"></span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Footer section-->
+    <div id="footer" class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <p>Lữ Hành Vietnamtourist, thương hiệu lữ hành hàng đầu Việt Nam<br>Thương hiệu quốc gia</p>
+                <img src="icon/prize.png" alt="cup">
+                <p><br>Công ty TNHH một thành viên - Vietnamtourist - Quận 10 TP.HCM</p>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h5>DỊCH VỤ</h5>
+                        <ul>
+                            <li><a href="#">Tour trong nước</a></li>
+                            <li><a href="#">Tour nước ngoài</a></li>
+                            <li><a href="#">Vé máy bay</a></li>
+                            <li><a href="#">Thuê xe</a></li>
+                            <li><a href="#" target="_blank">Tuyển dụng</a></li>
+                            <li><a href="#" target="_blank">Du học</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xs-4">
+                        <h5>CHĂM SÓC KHÁCH HÀNG</h5>
+                        <ul>
+                            <li><a href="#" target="_blank">Thẻ khách hàng</a></li>
+                            <li><a href="#" target="_blank">Tải App</a></li>
+                            <li><a href="#" target="_blank">Travel Voucher </a></li>
+                            <li><a href="#" target="_blank">Bảo hiểm Du lịch</a></li>
+                            <li><a href="#">Ý kiến khách hàng</a></li>
+                            <li><a href="#" target="_blank">Phiếu góp ý</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xs-4">
+                        <h5>LIÊN HỆ</h5>
+                        <ul>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Chi nhánh</a></li>
+                            <li><a href="#">Hướng dẫn
+                                    mua tour online</a></li>
+                            <li><a href="#">Quy định thanh toán</a></li>
+
+                            <li><a href="#">Chính sách bảo mật</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="text-center" style="background-color: rgba(52, 73, 94,1.0)">
+
+        <a class="up-arrow " href="#home " data-toggle="tooltip " title="TO TOP ">
+            <span class="glyphicon glyphicon-chevron-up "></span>
+        </a><br><br>
+        <p> &#169; Vietnamtourist.com.vn</p>
+    </footer>
+    <!--  -->
+
+
+    <!--Script Plugin-->
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="myscript.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js "></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
