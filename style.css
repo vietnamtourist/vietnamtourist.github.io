@@ -33,6 +33,7 @@
         background-position: center center;
         background-size: cover;
         position: relative;
+        background-repeat: no-repeat;
     }
     
     #banner #banner-caption {
@@ -245,4 +246,13 @@
     
     .pagination a {
         color: black;
+    }
+    /* ===========================COMMENTS============================ */
+    
+    .comment {
+        margin-top: 50px;
+    }
+    
+    .comment li {
+        list-style: none;
     }
